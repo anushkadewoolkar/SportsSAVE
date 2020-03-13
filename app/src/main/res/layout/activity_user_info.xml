@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".UserInfoActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tell Us About Yourself!"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="123dp"
+        android:layout_height="36dp"
+        android:entries="@array/spinnerItems"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="103dp"
+        android:layout_height="48dp"
+        android:text="Age:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="162dp"
+        android:layout_height="58dp"
+        android:text="Primary Mode of Transportation"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="104dp"
+        android:layout_height="69dp"
+        android:entries="@array/spinnerItems2"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="405dp"
+        android:layout_height="483dp"
+        android:text="      CHOOSE YOUR SPORTS"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="105dp"
+        android:layout_height="110dp"
+        android:background="@drawable/basketballdrawn"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="110dp"
+        android:layout_height="106dp"
+        android:background="@drawable/baseballdrawn"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <Button
+        android:id="@+id/button4"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="105dp"
+        android:layout_height="102dp"
+        android:background="@drawable/soccerdrawn"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <Button
+        android:id="@+id/button5"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="103dp"
+        android:layout_height="102dp"
+        android:background="@drawable/footballdrawn"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <Button
+        android:id="@+id/button6"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="108dp"
+        android:layout_height="104dp"
+        android:background="@drawable/tennisdrawn"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:id="@+id/button7"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="105dp"
+        android:layout_height="98dp"
+        android:background="@drawable/hockeydrawnreal"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="381dp"
+        android:layout_height="273dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="124dp"
+        android:layout_height="40dp"
+        android:text="Baseball"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Football"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soccer"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hockey"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tennis"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basketball"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
