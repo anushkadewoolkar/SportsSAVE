@@ -11,169 +11,292 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="653dp"
         android:text="Tell Us About Yourself!"
         android:textSize="36sp"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="7dp" />
-
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="123dp"
-        android:layout_height="36dp"
-        android:entries="@array/spinnerItems"
-        tools:layout_editor_absoluteX="215dp"
-        tools:layout_editor_absoluteY="89dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="103dp"
         android:layout_height="48dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="586dp"
         android:text="Age:"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="97dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="162dp"
         android:layout_height="58dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="528dp"
         android:text="Primary Mode of Transportation"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="145dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="104dp"
         android:layout_height="69dp"
+        android:layout_marginStart="226dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="517dp"
         android:entries="@array/spinnerItems2"
-        tools:layout_editor_absoluteX="226dp"
-        tools:layout_editor_absoluteY="145dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="405dp"
         android:layout_height="483dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="4dp"
         android:text="      CHOOSE YOUR SPORTS"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="250dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button2"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="105dp"
         android:layout_height="110dp"
+        android:layout_marginStart="282dp"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="157dp"
         android:background="@drawable/basketballdrawn"
-        tools:layout_editor_absoluteX="282dp"
-        tools:layout_editor_absoluteY="464dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="110dp"
         android:layout_height="106dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="317dp"
         android:background="@drawable/baseballdrawn"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="308dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="105dp"
         android:layout_height="102dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="321dp"
         android:background="@drawable/soccerdrawn"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="308dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button5"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="103dp"
         android:layout_height="102dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="275dp"
+        android:layout_marginBottom="321dp"
         android:background="@drawable/footballdrawn"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="308dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button6"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="108dp"
         android:layout_height="104dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="158dp"
         android:background="@drawable/tennisdrawn"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="469dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button7"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="105dp"
         android:layout_height="98dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="164dp"
         android:background="@drawable/hockeydrawnreal"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="469dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/submitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="664dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="19dp"
         android:text="submit"
-        tools:layout_editor_absoluteX="290dp"
-        tools:layout_editor_absoluteY="664dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="381dp"
         android:layout_height="273dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="332dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="126dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <RadioButton
         android:id="@+id/radioButton"
         android:layout_width="124dp"
         android:layout_height="40dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="413dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="278dp"
         android:text="Baseball"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="413dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioButton
         android:id="@+id/radioButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="421dp"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="278dp"
         android:text="Football"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="421dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioButton
         android:id="@+id/radioButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="277dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="279dp"
         android:text="Soccer"
-        tools:layout_editor_absoluteX="277dp"
-        tools:layout_editor_absoluteY="420dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioButton
         android:id="@+id/radioButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="574dp"
+        android:layout_marginEnd="299dp"
+        android:layout_marginBottom="125dp"
         android:text="Hockey"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="574dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioButton
         android:id="@+id/radioButton5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="574dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="125dp"
         android:text="Tennis"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="574dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioButton
         android:id="@+id/radioButton6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="282dp"
+        android:layout_marginTop="573dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="126dp"
         android:text="Basketball"
-        tools:layout_editor_absoluteX="282dp"
-        tools:layout_editor_absoluteY="573dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="586dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="age"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

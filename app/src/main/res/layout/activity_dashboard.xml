@@ -108,7 +108,7 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:src="@drawable/badgeReal"
+                        android:src="@drawable/badge_real"
                         android:background="@android:color/transparent"
 
                         android:layout_width="80dp"
