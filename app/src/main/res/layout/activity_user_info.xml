@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/bg_image"
     tools:context=".UserInfoActivity">
 
     <TextView
@@ -16,6 +16,7 @@
         android:layout_marginEnd="23dp"
         android:layout_marginBottom="653dp"
         android:text="Tell Us About Yourself!"
+        android:textColor="#FFFFFF"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,6 +32,7 @@
         android:layout_marginEnd="247dp"
         android:layout_marginBottom="586dp"
         android:text="Age:"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,6 +48,7 @@
         android:layout_marginEnd="216dp"
         android:layout_marginBottom="528dp"
         android:text="Primary Mode of Transportation"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -172,17 +175,20 @@
 
     <Button
         android:id="@+id/submitButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
         android:layout_marginStart="290dp"
         android:layout_marginTop="664dp"
         android:layout_marginEnd="33dp"
         android:layout_marginBottom="19dp"
         android:text="submit"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
@@ -298,5 +304,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="379dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/button"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/josefin_sans_bold"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="656dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

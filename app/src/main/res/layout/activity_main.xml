@@ -82,7 +82,7 @@
         android:id="@+id/imageView12"
         android:layout_width="352dp"
         android:layout_height="69dp"
-        app:srcCompat="@drawable/Button"
+        app:srcCompat="@drawable/button"
         tools:layout_editor_absoluteX="29dp"
         tools:layout_editor_absoluteY="530dp" />
 
@@ -90,10 +90,10 @@
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/josefin_sans_thick"
+        android:fontFamily="@font/josefin_sans_bold"
         android:text="Login"
         android:textColor="@color/cardview_light_background"
-        android:textSize="40sp"
+        android:textSize="50sp"
         tools:layout_editor_absoluteX="136dp"
         tools:layout_editor_absoluteY="535dp" />
 

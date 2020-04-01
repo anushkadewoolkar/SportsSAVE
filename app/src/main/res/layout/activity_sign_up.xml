@@ -50,7 +50,7 @@
         android:id="@+id/imageView10"
         android:layout_width="323dp"
         android:layout_height="149dp"
-        app:srcCompat="@drawable/Button"
+        app:srcCompat="@drawable/button"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="596dp" />
 
@@ -133,11 +133,11 @@
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/josefin_sans_thick"
+        android:fontFamily="@font/josefin_sans_bold"
         android:text="Sign Up"
         android:textColor="@color/cardview_light_background"
         android:textSize="40sp"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="640dp" />
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="647dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
