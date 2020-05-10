@@ -116,4 +116,36 @@
         tools:layout_editor_absoluteX="246dp"
         tools:layout_editor_absoluteY="608dp" />
 
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="351dp"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/path2"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="116dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/Email"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="351dp"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/path2"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="114dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/Password"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="427dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

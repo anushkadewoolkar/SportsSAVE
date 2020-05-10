@@ -17,6 +17,14 @@
         tools:layout_editor_absoluteX="26dp"
         tools:layout_editor_absoluteY="362dp" />
 
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="351dp"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/path2"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="331dp" />
+
     <EditText
         android:id="@+id/passwordEditText"
         android:layout_width="313dp"
@@ -78,14 +86,6 @@
         tools:layout_editor_absoluteX="44dp"
         tools:layout_editor_absoluteY="198dp" />
 
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="348dp"
-        android:layout_height="78dp"
-        app:srcCompat="@drawable/email"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="355dp" />
-
     <TextView
         android:id="@+id/textView18"
         android:layout_width="135dp"
@@ -104,12 +104,28 @@
         tools:layout_editor_absoluteY="443dp" />
 
     <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="351dp"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/path2"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <ImageView
         android:id="@+id/imageView17"
         android:layout_width="348dp"
         android:layout_height="78dp"
         app:srcCompat="@drawable/email"
         tools:layout_editor_absoluteX="26dp"
         tools:layout_editor_absoluteY="532dp" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="351dp"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/path2"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="503dp" />
 
     <TextView
         android:id="@+id/textView19"
